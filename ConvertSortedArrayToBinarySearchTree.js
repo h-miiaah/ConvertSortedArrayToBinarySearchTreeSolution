@@ -13,3 +13,7 @@
  var sortedArrayToBST = function(nums) {
     
 };
+
+var treeHelper = function (nums, ll, rr) {
+    
+  };
