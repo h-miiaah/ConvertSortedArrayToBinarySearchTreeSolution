@@ -30,5 +30,7 @@ var treeHelper = function (nums, ll, rr) {
   - If the left index is greater than the right index, then we know that the array is empty, so we return null.
   - Otherwise, we find the middle index of the array.
   - We create a new TreeNode with the value at the middle index.
+  - We recursively call the treeHelper function on the left half of the array and the right half of the array.
   
+
   */
