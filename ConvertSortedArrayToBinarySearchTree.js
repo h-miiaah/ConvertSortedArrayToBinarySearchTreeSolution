@@ -20,4 +20,5 @@ var treeHelper = function (nums, ll, rr) {
     var root = new TreeNode(nums[mid]);
     root.left = treeHelper(nums, ll, mid - 1);
     root.right = treeHelper(nums, mid + 1, rr);
+    return root;
   };
