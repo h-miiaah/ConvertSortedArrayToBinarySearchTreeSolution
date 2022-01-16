@@ -31,6 +31,6 @@ var treeHelper = function (nums, ll, rr) {
   - Otherwise, we find the middle index of the array.
   - We create a new TreeNode with the value at the middle index.
   - We recursively call the treeHelper function on the left half of the array and the right half of the array.
-  
+  - Finally return the root of the tree.
 
   */
