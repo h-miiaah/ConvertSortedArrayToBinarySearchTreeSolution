@@ -19,4 +19,5 @@ var treeHelper = function (nums, ll, rr) {
     var mid = Math.ceil((ll + rr) / 2);
     var root = new TreeNode(nums[mid]);
     root.left = treeHelper(nums, ll, mid - 1);
+    root.right = treeHelper(nums, mid + 1, rr);
   };
