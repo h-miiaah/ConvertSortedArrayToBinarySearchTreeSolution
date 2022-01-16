@@ -16,4 +16,5 @@
 
 var treeHelper = function (nums, ll, rr) {
     if (ll > rr) return null;
+    var mid = Math.ceil((ll + rr) / 2);
   };
