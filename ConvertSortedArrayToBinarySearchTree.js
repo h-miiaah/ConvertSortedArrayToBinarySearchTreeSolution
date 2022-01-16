@@ -11,7 +11,7 @@
  * @return {TreeNode}
  */
  var sortedArrayToBST = function(nums) {
-    
+    return treeHelper(nums, 0, nums.length - 1);
 };
 
 var treeHelper = function (nums, ll, rr) {
