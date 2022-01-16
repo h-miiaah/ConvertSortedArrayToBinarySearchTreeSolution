@@ -28,5 +28,6 @@ var treeHelper = function (nums, ll, rr) {
 
   - The treeHelper function takes in the sorted array, the left index, and the right index.
   - If the left index is greater than the right index, then we know that the array is empty, so we return null.
+  - Otherwise, we find the middle index of the array.
 
   */
