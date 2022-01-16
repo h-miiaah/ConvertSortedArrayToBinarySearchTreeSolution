@@ -26,6 +26,6 @@ var treeHelper = function (nums, ll, rr) {
 
   /*
 
-  
+  - The treeHelper function takes in the sorted array, the left index, and the right index.
 
   */
